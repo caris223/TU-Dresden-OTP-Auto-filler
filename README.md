@@ -18,10 +18,15 @@ A simple Chrome extension that automatically fills the "Indexed Secret" OTP fiel
 
 ## Configuration
 
-The password is currently hardcoded in `content.js`. If your Indexed Secret password changes:
-1. Open `content.js`.
-2. Update the `password` variable at the top of the file.
-3. Save the file and click the **Reload** icon on the extension in `chrome://extensions/`.
+After installing the extension, you need to configure your Indexed Secret:
+
+1. Go to `chrome://extensions/`.
+2. Find **TU Dresden OTP Auto-filler**.
+3. Click **Details**.
+4. Scroll down and click **Extension options**.
+5. Enter your 25-character Indexed Secret in the input field and click **Save Settings**.
+
+Alternatively, you can right-click the extension icon in the toolbar and select **Options**.
 
 ## License
 

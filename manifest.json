@@ -3,6 +3,13 @@
   "name": "TU Dresden OTP Auto-filler",
   "version": "1.0",
   "description": "Automatically fills the Indexed Secret OTP on TU Dresden IDP login.",
+  "permissions": [
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
   "content_scripts": [
     {
       "matches": [

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TU Dresden OTP Settings</title>
+  <style>
+    body { padding: 15px; min-width: 350px; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+    h2 { margin-top: 0; font-size: 16px; }
+    label { display: block; margin-bottom: 8px; font-weight: bold; }
+    input { width: 100%; box-sizing: border-box; margin-bottom: 15px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+    button { background-color: #0056b3; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; }
+    button:hover { background-color: #004494; }
+    #status { margin-top: 10px; color: green; font-size: 0.9em; height: 20px; }
+    .note { font-size: 0.85em; color: #666; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <h2>TU Dresden OTP Configuration</h2>
+  <label for="password">Indexed Secret:</label>
+  <div class="note">Enter your 25-character Indexed Secret.</div>
+  <input type="password" id="password" placeholder="Enter your secret here">
+  <button id="save">Save Settings</button>
+  <div id="status"></div>
+  <script src="options.js"></script>
+</body>
+</html>
