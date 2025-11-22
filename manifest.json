@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "TU Dresden OTP Auto-filler",
+  "version": "1.0",
+  "description": "Automatically fills the Indexed Secret OTP on TU Dresden IDP login.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://idp.tu-dresden.de/idp/profile/SAML2/Redirect/SSO*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
